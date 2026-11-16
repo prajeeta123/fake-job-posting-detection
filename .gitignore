@@ -37,9 +37,10 @@ desktop.ini
 output/
 reports/temp/
 
-# Large datasets
+# Keep the extracted raw CSV local; the sanitized source ZIP is tracked.
 data/raw/*.csv
-data/processed/processed_job_postings.csv
+
+# The processed dataset is tracked with Git LFS, so do not ignore it here.
 
 # Current saved models are small enough to include.
 # Use Git LFS or exclude and document a regeneration path if a future model is large.

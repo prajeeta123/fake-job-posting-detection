@@ -20,9 +20,9 @@ Online recruitment scams can imitate legitimate job advertisements. Reviewing ev
 
 ## 4. Dataset description
 
-The project was developed with `data/raw/DataSet.csv`, a dataset of 17,880 postings and 18 columns. It contains five text fields (`title`, `company_profile`, `description`, `requirements`, and `benefits`), job metadata, three binary posting fields, the `fraudulent` target (`t` for fraudulent and `f` for legitimate), and `in_balanced_dataset`. The latter is excluded from model features.
+The project includes `data/raw/DataSet.zip`, containing the dataset of 17,880 postings and 18 columns. It contains five text fields (`title`, `company_profile`, `description`, `requirements`, and `benefits`), job metadata, three binary posting fields, the `fraudulent` target (`t` for fraudulent and `f` for legitimate), and `in_balanced_dataset`. The latter is excluded from model features. The bundled copy replaces one email-shaped value in a job title with `redacted@example.invalid`; preprocessing still converts that value to the same `EMAIL` token.
 
-The inspection found 17,014 legitimate and 866 fraudulent raw rows. Removing 235 exact duplicate rows leaves 17,645 rows: 16,787 legitimate and 858 fraudulent. Optional fields have missing values; the fitted pipeline handles them. The raw and processed CSVs are excluded from Git because they are each larger than 50 MB. See [the dataset report](report/06_dataset_description.md) and [the cited dataset paper](https://doi.org/10.3390/fi9010006) for context and attribution. Check the original dataset's terms before redistributing it.
+The inspection found 17,014 legitimate and 866 fraudulent raw rows. Removing 235 exact duplicate rows leaves 17,645 rows: 16,787 legitimate and 858 fraudulent. Optional fields have missing values; the fitted pipeline handles them. The source CSV is bundled in a compressed ZIP; the 83.9 MB processed CSV is stored with Git LFS. The dataset source is listed as CC0 on [Kaggle](https://www.kaggle.com/datasets/amruthjithrajvr/recruitment-scam). See [the dataset report](report/06_dataset_description.md) and [the cited dataset paper](https://doi.org/10.3390/fi9010006) for context and attribution.
 
 ## 5. Technologies used
 
@@ -68,13 +68,16 @@ The app loads `models/fake_job_detector.joblib` and `models/model_threshold.json
 fake-job-detector/
 ├── app.py
 ├── data/
-│   ├── raw/                 # Local source CSV; excluded from Git
-│   └── processed/           # Local processed CSVs; large CSV excluded from Git
+│   ├── raw/
+│   │   └── DataSet.zip      # Sanitized source dataset archive
+│   └── processed/
+│       └── processed_job_postings.csv  # Stored with Git LFS
 ├── models/                  # Saved models and JSON metadata/configuration
 ├── notebooks/               # Inspection, preprocessing, modeling, and analysis
 ├── report/                  # Project chapters, metrics, charts, and analysis
 ├── src/                     # Model calibration script
 ├── tests/                   # Streamlit input scenarios
+├── .gitattributes           # Git LFS rule for the processed dataset
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -87,8 +90,10 @@ Create a GitHub repository named `fake-job-posting-detection`, then replace `<re
 ### Windows Command Prompt
 
 ```powershell
+git lfs install
 git clone <repository-url>
 cd fake-job-posting-detection
+git lfs pull
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -99,12 +104,16 @@ In Windows PowerShell, activate the environment with `.\venv\Scripts\Activate.ps
 ### Linux/macOS
 
 ```bash
+git lfs install
 git clone <repository-url>
 cd fake-job-posting-detection
+git lfs pull
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Install [Git LFS](https://git-lfs.com/) first if the `git lfs` command is unavailable. `git lfs pull` downloads the processed CSV tracked outside ordinary Git history.
 
 The saved model was verified in the current Python 3.14 environment. Use a recent Python version supported by the listed packages. Loading scikit-learn models across incompatible scikit-learn versions is not guaranteed; if deserialization fails, recreate the environment with a compatible scikit-learn version or regenerate the model from the notebooks.
 
@@ -120,7 +129,7 @@ The app needs `models/fake_job_detector.joblib` and `models/model_threshold.json
 
 ## 11. How to reproduce the model
 
-The dataset CSVs are not stored in this repository because they exceed 50 MB. Obtain the dataset from its original distribution, review its license, and place the source file at `data/raw/DataSet.csv`. Then run the notebooks in workflow order. The processed data is created by the preprocessing notebook. The saved hybrid classifier and calibration script also need the processed CSV and the source CSV to align posting metadata.
+The source dataset archive is included at `data/raw/DataSet.zip`; the processed CSV is downloaded by Git LFS. In a fresh clone, extract the archive into `data/raw` (PowerShell: `Expand-Archive -LiteralPath data/raw/DataSet.zip -DestinationPath data/raw`; Linux/macOS: `unzip data/raw/DataSet.zip -d data/raw`). Then run the notebooks in workflow order. The preprocessing notebook can regenerate the processed data. The saved hybrid classifier and calibration script also need the processed CSV and source CSV to align posting metadata.
 
 Run `python src/fit_app_calibrator.py` after the selected hybrid model and both datasets are available. Generate or validate the threshold configuration with `notebooks/08_threshold_optimization.ipynb`. Keep the held-out test data out of training, calibration, and threshold selection.
 

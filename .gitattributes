@@ -1,0 +1,2 @@
+# Store the large processed dataset in Git LFS instead of a regular Git blob.
+data/processed/processed_job_postings.csv filter=lfs diff=lfs merge=lfs -text
