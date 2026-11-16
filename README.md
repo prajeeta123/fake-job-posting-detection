@@ -174,8 +174,8 @@ The SHAP notebook explains sampled model outputs and summarizes feature contribu
 
 ## 19. Author information
 
-- **Author:** [Your name]
-- **Institution / department:** [Your institution]
-- **Course / supervisor:** [Course or supervisor, if applicable]
-- **Contact:** [Your preferred public contact]
+- **Author:** [Prajeeta Pathare]
+- **Institution / department:** [MITAOE]
+- **Course / supervisor:** [Mrs.Gauri Thithe]
+  
 
