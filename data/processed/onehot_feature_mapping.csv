@@ -1,0 +1,481 @@
+encoded_column,source_feature_category
+ohe__0000,"location_AE, DU, Dubai"
+ohe__0001,"location_AU, NSW, Sydney"
+ohe__0002,"location_AU, QLD, Brisbane"
+ohe__0003,"location_AU, VIC, Melbourne"
+ohe__0004,"location_BE, , Brussels"
+ohe__0005,"location_BE, BRU, Brussels"
+ohe__0006,"location_BR, SP, São Paulo"
+ohe__0007,"location_CA, AB, Edmonton"
+ohe__0008,"location_CA, BC, Vancouver"
+ohe__0009,"location_CA, ON, London"
+ohe__0010,"location_CA, ON, Ottawa"
+ohe__0011,"location_CA, ON, Toronto"
+ohe__0012,"location_CA, QC, Montreal"
+ohe__0013,"location_DE, , Berlin"
+ohe__0014,"location_DE, BE, Berlin"
+ohe__0015,"location_DE, BY, Munich"
+ohe__0016,"location_DE, BY, München"
+ohe__0017,"location_DK, 84, Copenhagen"
+ohe__0018,"location_EE, 37, Tallinn"
+ohe__0019,"location_EG, C, Cairo, Nasr City"
+ohe__0020,"location_ES, , Chamberi | Madrid"
+ohe__0021,"location_ES, CT, Barcelona"
+ohe__0022,"location_FR, J, Paris"
+ohe__0023,"location_GB, , "
+ohe__0024,"location_GB, , Birmingham"
+ohe__0025,"location_GB, , Leeds"
+ohe__0026,"location_GB, , London"
+ohe__0027,"location_GB, , Manchester"
+ohe__0028,"location_GB, BIR, Birmingham"
+ohe__0029,"location_GB, CMD, London"
+ohe__0030,"location_GB, ENG, London"
+ohe__0031,"location_GB, GBN, London"
+ohe__0032,"location_GB, ISL, London"
+ohe__0033,"location_GB, LND, "
+ohe__0034,"location_GB, LND, London"
+ohe__0035,"location_GB, LND, London "
+ohe__0036,"location_GB, LND, Shoreditch"
+ohe__0037,"location_GB, LND, london"
+ohe__0038,"location_GB, MAN, Manchester"
+ohe__0039,"location_GB, NYK, Harrogate"
+ohe__0040,"location_GB, RIC, Twickenham"
+ohe__0041,"location_GB, WKF, Wakefield"
+ohe__0042,"location_GR, , "
+ohe__0043,"location_GR, , Athens"
+ohe__0044,"location_GR, B, Thessaloniki"
+ohe__0045,"location_GR, E, Volos"
+ohe__0046,"location_GR, I, "
+ohe__0047,"location_GR, I, Athens"
+ohe__0048,"location_GR, I, Marousi"
+ohe__0049,"location_GR, I, Neo Iraklio"
+ohe__0050,"location_HK, , "
+ohe__0051,"location_HK, , Hong Kong"
+ohe__0052,"location_IE, , Dublin"
+ohe__0053,"location_IE, L, Dublin"
+ohe__0054,"location_IL, , "
+ohe__0055,"location_IL, , Tel Aviv"
+ohe__0056,"location_IN, , "
+ohe__0057,"location_IN, AP, Hyderabad"
+ohe__0058,"location_IN, KA, Bangalore"
+ohe__0059,"location_IN, MH, Pune"
+ohe__0060,"location_IN, MP, Indore"
+ohe__0061,"location_IN, TN, Chennai"
+ohe__0062,"location_IT, 25, Milano"
+ohe__0063,"location_NL, NH, Amsterdam"
+ohe__0064,"location_NL, NH, Hilversum"
+ohe__0065,"location_NL, UT, Amersfoort"
+ohe__0066,"location_NZ, , "
+ohe__0067,"location_NZ, , Wellington"
+ohe__0068,"location_NZ, N, Auckland"
+ohe__0069,"location_NZ, N, Wellington"
+ohe__0070,"location_PH, , Quezon City"
+ohe__0071,"location_PH, 07, Cebu"
+ohe__0072,"location_PH, 07, Cebu City"
+ohe__0073,"location_PK, SD, Karachi"
+ohe__0074,"location_PL, MZ, Warsaw"
+ohe__0075,"location_RO, B, Bucharest"
+ohe__0076,"location_SE, , Stockholm"
+ohe__0077,"location_SE, AB, Stockholm"
+ohe__0078,"location_SG, , "
+ohe__0079,"location_SG, 01, "
+ohe__0080,"location_SG, 01, Singapore"
+ohe__0081,location_US
+ohe__0082,"location_US, , "
+ohe__0083,"location_US, AL, Birmingham"
+ohe__0084,"location_US, AL, Montgomery"
+ohe__0085,"location_US, AR, Little Rock"
+ohe__0086,"location_US, AZ, Phoenix"
+ohe__0087,"location_US, AZ, Scottsdale"
+ohe__0088,"location_US, AZ, Tempe"
+ohe__0089,"location_US, CA, "
+ohe__0090,"location_US, CA, Bakersfield"
+ohe__0091,"location_US, CA, Burbank"
+ohe__0092,"location_US, CA, Carlsbad"
+ohe__0093,"location_US, CA, Chula Vista"
+ohe__0094,"location_US, CA, El Segundo"
+ohe__0095,"location_US, CA, Fresno"
+ohe__0096,"location_US, CA, Irvine"
+ohe__0097,"location_US, CA, Long Beach"
+ohe__0098,"location_US, CA, Los Angeles"
+ohe__0099,"location_US, CA, Manhattan Beach"
+ohe__0100,"location_US, CA, Menlo Park"
+ohe__0101,"location_US, CA, Modesto"
+ohe__0102,"location_US, CA, Mountain View"
+ohe__0103,"location_US, CA, Newport Beach"
+ohe__0104,"location_US, CA, Orange County"
+ohe__0105,"location_US, CA, Palo Alto"
+ohe__0106,"location_US, CA, Pasadena"
+ohe__0107,"location_US, CA, Redlands"
+ohe__0108,"location_US, CA, Sacramento"
+ohe__0109,"location_US, CA, San Carlos"
+ohe__0110,"location_US, CA, San Diego"
+ohe__0111,"location_US, CA, San Francisco"
+ohe__0112,"location_US, CA, San Francisco Bay Area"
+ohe__0113,"location_US, CA, San Jose"
+ohe__0114,"location_US, CA, San Mateo"
+ohe__0115,"location_US, CA, San Ramon"
+ohe__0116,"location_US, CA, Santa Clara"
+ohe__0117,"location_US, CA, Santa Monica"
+ohe__0118,"location_US, CA, Sunnyvale"
+ohe__0119,"location_US, CO, Denver"
+ohe__0120,"location_US, CT, Stamford"
+ohe__0121,"location_US, CT, Windsor"
+ohe__0122,"location_US, DC, Washington"
+ohe__0123,"location_US, DE, Wilmington"
+ohe__0124,"location_US, FL, Boca Raton"
+ohe__0125,"location_US, FL, Fort Lauderdale"
+ohe__0126,"location_US, FL, Jacksonville"
+ohe__0127,"location_US, FL, Miami"
+ohe__0128,"location_US, FL, Orlando"
+ohe__0129,"location_US, FL, Tampa"
+ohe__0130,"location_US, GA, Atlanta"
+ohe__0131,"location_US, GA, Atlanta "
+ohe__0132,"location_US, IA, Cedar Rapids"
+ohe__0133,"location_US, IA, Dubuque"
+ohe__0134,"location_US, IL, Chicago"
+ohe__0135,"location_US, IN, Fishers"
+ohe__0136,"location_US, IN, Indianapolis"
+ohe__0137,"location_US, KY, Lexington"
+ohe__0138,"location_US, KY, Louisville"
+ohe__0139,"location_US, MA, "
+ohe__0140,"location_US, MA, Boston"
+ohe__0141,"location_US, MA, Cambridge"
+ohe__0142,"location_US, MA, Wilmington"
+ohe__0143,"location_US, MA, Woburn"
+ohe__0144,"location_US, MD, Baltimore"
+ohe__0145,"location_US, MI, Ann Arbor"
+ohe__0146,"location_US, MI, Detroit"
+ohe__0147,"location_US, MI, Grand Rapids"
+ohe__0148,"location_US, MN, Minneapolis"
+ohe__0149,"location_US, MN, St. Paul"
+ohe__0150,"location_US, MO, Kansas City"
+ohe__0151,"location_US, MO, St. Louis"
+ohe__0152,"location_US, NC, Charlotte"
+ohe__0153,"location_US, NC, Raleigh"
+ohe__0154,"location_US, NE, Omaha"
+ohe__0155,"location_US, NJ, Jersey City"
+ohe__0156,"location_US, NJ, Piscataway"
+ohe__0157,"location_US, NJ, Secaucus"
+ohe__0158,"location_US, NV, Las Vegas"
+ohe__0159,"location_US, NY, "
+ohe__0160,"location_US, NY, Albany"
+ohe__0161,"location_US, NY, Brooklyn"
+ohe__0162,"location_US, NY, Farmingdale"
+ohe__0163,"location_US, NY, NY"
+ohe__0164,"location_US, NY, NYC"
+ohe__0165,"location_US, NY, New York"
+ohe__0166,"location_US, NY, New York "
+ohe__0167,"location_US, NY, New York City"
+ohe__0168,"location_US, NY, Niagara Falls"
+ohe__0169,"location_US, OH, Cincinnati"
+ohe__0170,"location_US, OH, Cleveland"
+ohe__0171,"location_US, OH, Columbus"
+ohe__0172,"location_US, OK, Oklahoma City"
+ohe__0173,"location_US, OR, Portland"
+ohe__0174,"location_US, PA, "
+ohe__0175,"location_US, PA, Philadelphia"
+ohe__0176,"location_US, PA, Pittsburgh"
+ohe__0177,"location_US, PA, Waynesburg"
+ohe__0178,"location_US, SC, Beaufort"
+ohe__0179,"location_US, TN, Memphis"
+ohe__0180,"location_US, TN, Nashville"
+ohe__0181,"location_US, TX, "
+ohe__0182,"location_US, TX, Austin"
+ohe__0183,"location_US, TX, Carrollton"
+ohe__0184,"location_US, TX, College Station"
+ohe__0185,"location_US, TX, Corpus Christi"
+ohe__0186,"location_US, TX, Dallas"
+ohe__0187,"location_US, TX, Fort Worth"
+ohe__0188,"location_US, TX, Houston"
+ohe__0189,"location_US, TX, Irving"
+ohe__0190,"location_US, TX, Plano"
+ohe__0191,"location_US, TX, San Antonio"
+ohe__0192,"location_US, TX, Temple"
+ohe__0193,"location_US, UT, Draper"
+ohe__0194,"location_US, UT, Salt Lake City"
+ohe__0195,"location_US, VA, Arlington"
+ohe__0196,"location_US, VA, Charlottesville"
+ohe__0197,"location_US, VA, Chesapeake"
+ohe__0198,"location_US, VA, Fairfax"
+ohe__0199,"location_US, VA, Hampton"
+ohe__0200,"location_US, VA, McLean"
+ohe__0201,"location_US, VA, Reston"
+ohe__0202,"location_US, VA, Richmond"
+ohe__0203,"location_US, VA, Virginia Beach"
+ohe__0204,"location_US, WA, Bellingham"
+ohe__0205,"location_US, WA, Redmond"
+ohe__0206,"location_US, WA, Seattle"
+ohe__0207,"location_US, WI, Madison"
+ohe__0208,"location_US, WI, Milwaukee"
+ohe__0209,location___MISSING__
+ohe__0210,location_infrequent_sklearn
+ohe__0211,department_Accounting
+ohe__0212,department_Admin
+ohe__0213,department_Administration
+ohe__0214,department_Administrative
+ohe__0215,department_All
+ohe__0216,department_Art Studio
+ohe__0217,department_Business Development
+ohe__0218,department_CS
+ohe__0219,department_CSD Relay
+ohe__0220,department_Clerical
+ohe__0221,department_Client Services
+ohe__0222,department_Commercial
+ohe__0223,department_Content
+ohe__0224,department_Creative
+ohe__0225,department_Creative Services
+ohe__0226,department_Customer Service
+ohe__0227,department_Customer Support
+ohe__0228,department_Department
+ohe__0229,department_Design
+ohe__0230,department_Development
+ohe__0231,department_Didactics
+ohe__0232,department_Digital
+ohe__0233,department_Editorial
+ohe__0234,department_Education
+ohe__0235,department_Engineering
+ohe__0236,department_Engineering 
+ohe__0237,department_Finance
+ohe__0238,department_Growth
+ohe__0239,department_HR
+ohe__0240,department_Human Resources
+ohe__0241,department_IT
+ohe__0242,department_IT Services
+ohe__0243,department_Information Technology
+ohe__0244,department_Information Technology 
+ohe__0245,department_International Growth
+ohe__0246,department_Legal
+ohe__0247,department_Maintenance
+ohe__0248,department_Management
+ohe__0249,department_Marketing
+ohe__0250,department_Marketing 
+ohe__0251,department_Oil & Energy
+ohe__0252,department_Oil and Gas
+ohe__0253,department_Operations
+ohe__0254,department_Performance Marketing
+ohe__0255,department_Permanent
+ohe__0256,department_Product
+ohe__0257,department_Product Development
+ohe__0258,department_Product Innovation
+ohe__0259,department_Product Management
+ohe__0260,department_Product Team
+ohe__0261,department_Production
+ohe__0262,department_Project Management
+ohe__0263,department_QA
+ohe__0264,department_R&D
+ohe__0265,department_Retail
+ohe__0266,department_Sales
+ohe__0267,department_Squiz 
+ohe__0268,department_Support
+ohe__0269,department_Tech
+ohe__0270,department_Technical
+ohe__0271,department_Technical Support
+ohe__0272,department_Technology
+ohe__0273,department_Warehouse
+ohe__0274,department___MISSING__
+ohe__0275,department_sales
+ohe__0276,department_tech
+ohe__0277,department_infrequent_sklearn
+ohe__0278,salary_range_0-0
+ohe__0279,salary_range_100000-120000
+ohe__0280,salary_range_100000-130000
+ohe__0281,salary_range_100000-150000
+ohe__0282,salary_range_140000-150000
+ohe__0283,salary_range_18000-20000
+ohe__0284,salary_range_20000-24000
+ohe__0285,salary_range_20000-25000
+ohe__0286,salary_range_20000-30000
+ohe__0287,salary_range_25000-30000
+ohe__0288,salary_range_25000-35000
+ohe__0289,salary_range_28000-32000
+ohe__0290,salary_range_30000-35000
+ohe__0291,salary_range_30000-40000
+ohe__0292,salary_range_30000-45000
+ohe__0293,salary_range_30000-50000
+ohe__0294,salary_range_35000-40000
+ohe__0295,salary_range_35000-45000
+ohe__0296,salary_range_35000-50000
+ohe__0297,salary_range_40000-45000
+ohe__0298,salary_range_40000-50000
+ohe__0299,salary_range_40000-60000
+ohe__0300,salary_range_40000-70000
+ohe__0301,salary_range_4500-4500
+ohe__0302,salary_range_45000-50000
+ohe__0303,salary_range_45000-55000
+ohe__0304,salary_range_45000-60000
+ohe__0305,salary_range_45000-67000
+ohe__0306,salary_range_50000-60000
+ohe__0307,salary_range_50000-65000
+ohe__0308,salary_range_50000-70000
+ohe__0309,salary_range_50000-80000
+ohe__0310,salary_range_55000-65000
+ohe__0311,salary_range_55000-75000
+ohe__0312,salary_range_60000-100000
+ohe__0313,salary_range_60000-70000
+ohe__0314,salary_range_60000-75000
+ohe__0315,salary_range_60000-80000
+ohe__0316,salary_range_60000-90000
+ohe__0317,salary_range_65000-80000
+ohe__0318,salary_range_70000-80000
+ohe__0319,salary_range_70000-90000
+ohe__0320,salary_range_80000-100000
+ohe__0321,salary_range_80000-110000
+ohe__0322,salary_range_80000-120000
+ohe__0323,salary_range_90000-110000
+ohe__0324,salary_range___MISSING__
+ohe__0325,salary_range_infrequent_sklearn
+ohe__0326,employment_type_Contract
+ohe__0327,employment_type_Full-time
+ohe__0328,employment_type_Other
+ohe__0329,employment_type_Part-time
+ohe__0330,employment_type_Temporary
+ohe__0331,employment_type___MISSING__
+ohe__0332,required_experience_Associate
+ohe__0333,required_experience_Director
+ohe__0334,required_experience_Entry level
+ohe__0335,required_experience_Executive
+ohe__0336,required_experience_Internship
+ohe__0337,required_experience_Mid-Senior level
+ohe__0338,required_experience_Not Applicable
+ohe__0339,required_experience___MISSING__
+ohe__0340,required_education_Associate Degree
+ohe__0341,required_education_Bachelor's Degree
+ohe__0342,required_education_Certification
+ohe__0343,required_education_Doctorate
+ohe__0344,required_education_High School or equivalent
+ohe__0345,required_education_Master's Degree
+ohe__0346,required_education_Professional
+ohe__0347,required_education_Some College Coursework Completed
+ohe__0348,required_education_Some High School Coursework
+ohe__0349,required_education_Unspecified
+ohe__0350,required_education_Vocational
+ohe__0351,required_education___MISSING__
+ohe__0352,required_education_infrequent_sklearn
+ohe__0353,industry_Accounting
+ohe__0354,industry_Airlines/Aviation
+ohe__0355,industry_Apparel & Fashion
+ohe__0356,industry_Automotive
+ohe__0357,industry_Aviation & Aerospace
+ohe__0358,industry_Banking
+ohe__0359,industry_Biotechnology
+ohe__0360,industry_Broadcast Media
+ohe__0361,industry_Building Materials
+ohe__0362,industry_Business Supplies and Equipment
+ohe__0363,industry_Chemicals
+ohe__0364,industry_Civic & Social Organization
+ohe__0365,industry_Computer & Network Security
+ohe__0366,industry_Computer Games
+ohe__0367,industry_Computer Hardware
+ohe__0368,industry_Computer Networking
+ohe__0369,industry_Computer Software
+ohe__0370,industry_Construction
+ohe__0371,industry_Consumer Electronics
+ohe__0372,industry_Consumer Goods
+ohe__0373,industry_Consumer Services
+ohe__0374,industry_Cosmetics
+ohe__0375,industry_Design
+ohe__0376,industry_E-Learning
+ohe__0377,industry_Education Management
+ohe__0378,industry_Electrical/Electronic Manufacturing
+ohe__0379,industry_Entertainment
+ohe__0380,industry_Environmental Services
+ohe__0381,industry_Events Services
+ohe__0382,industry_Facilities Services
+ohe__0383,industry_Farming
+ohe__0384,industry_Financial Services
+ohe__0385,industry_Food & Beverages
+ohe__0386,industry_Food Production
+ohe__0387,industry_Fund-Raising
+ohe__0388,industry_Gambling & Casinos
+ohe__0389,industry_Government Administration
+ohe__0390,industry_Graphic Design
+ohe__0391,"industry_Health, Wellness and Fitness"
+ohe__0392,industry_Higher Education
+ohe__0393,industry_Hospital & Health Care
+ohe__0394,industry_Hospitality
+ohe__0395,industry_Human Resources
+ohe__0396,industry_Information Services
+ohe__0397,industry_Information Technology and Services
+ohe__0398,industry_Insurance
+ohe__0399,industry_Internet
+ohe__0400,industry_Law Practice
+ohe__0401,industry_Legal Services
+ohe__0402,"industry_Leisure, Travel & Tourism"
+ohe__0403,industry_Logistics and Supply Chain
+ohe__0404,industry_Management Consulting
+ohe__0405,industry_Market Research
+ohe__0406,industry_Marketing and Advertising
+ohe__0407,industry_Mechanical or Industrial Engineering
+ohe__0408,industry_Media Production
+ohe__0409,industry_Medical Devices
+ohe__0410,industry_Medical Practice
+ohe__0411,industry_Mental Health Care
+ohe__0412,industry_Nonprofit Organization Management
+ohe__0413,industry_Oil & Energy
+ohe__0414,industry_Online Media
+ohe__0415,industry_Outsourcing/Offshoring
+ohe__0416,industry_Pharmaceuticals
+ohe__0417,industry_Printing
+ohe__0418,industry_Professional Training & Coaching
+ohe__0419,industry_Public Relations and Communications
+ohe__0420,industry_Publishing
+ohe__0421,industry_Real Estate
+ohe__0422,industry_Research
+ohe__0423,industry_Restaurants
+ohe__0424,industry_Retail
+ohe__0425,industry_Security and Investigations
+ohe__0426,industry_Sports
+ohe__0427,industry_Staffing and Recruiting
+ohe__0428,industry_Telecommunications
+ohe__0429,industry_Transportation/Trucking/Railroad
+ohe__0430,industry_Utilities
+ohe__0431,industry_Venture Capital & Private Equity
+ohe__0432,industry_Warehousing
+ohe__0433,industry_Writing and Editing
+ohe__0434,industry___MISSING__
+ohe__0435,industry_infrequent_sklearn
+ohe__0436,function_Accounting/Auditing
+ohe__0437,function_Administrative
+ohe__0438,function_Advertising
+ohe__0439,function_Art/Creative
+ohe__0440,function_Business Analyst
+ohe__0441,function_Business Development
+ohe__0442,function_Consulting
+ohe__0443,function_Customer Service
+ohe__0444,function_Data Analyst
+ohe__0445,function_Design
+ohe__0446,function_Distribution
+ohe__0447,function_Education
+ohe__0448,function_Engineering
+ohe__0449,function_Finance
+ohe__0450,function_Financial Analyst
+ohe__0451,function_General Business
+ohe__0452,function_Health Care Provider
+ohe__0453,function_Human Resources
+ohe__0454,function_Information Technology
+ohe__0455,function_Legal
+ohe__0456,function_Management
+ohe__0457,function_Manufacturing
+ohe__0458,function_Marketing
+ohe__0459,function_Other
+ohe__0460,function_Product Management
+ohe__0461,function_Production
+ohe__0462,function_Project Management
+ohe__0463,function_Public Relations
+ohe__0464,function_Purchasing
+ohe__0465,function_Quality Assurance
+ohe__0466,function_Research
+ohe__0467,function_Sales
+ohe__0468,function_Science
+ohe__0469,function_Strategy/Planning
+ohe__0470,function_Supply Chain
+ohe__0471,function_Training
+ohe__0472,function_Writing/Editing
+ohe__0473,function___MISSING__
+ohe__0474,telecommuting_f
+ohe__0475,telecommuting_t
+ohe__0476,has_company_logo_f
+ohe__0477,has_company_logo_t
+ohe__0478,has_questions_f
+ohe__0479,has_questions_t

@@ -1,0 +1,29 @@
+{
+  "model_name": "LinearSVC",
+  "positive_label": "t",
+  "label_mapping": {
+    "f": 0,
+    "t": 1
+  },
+  "selection_criterion": "highest training-validation PR-AUC (average precision), then validation fraud-class F1",
+  "metrics": {
+    "model": "LinearSVC",
+    "validation_pr_auc_for_selection": 0.9353948850334587,
+    "validation_f1_for_selection": 0.860655737704918,
+    "accuracy": 0.9855483139699631,
+    "precision_fraud": 0.935251798561151,
+    "recall_fraud": 0.7558139534883721,
+    "f1_fraud": 0.8360128617363344,
+    "roc_auc": 0.9764722793745799,
+    "pr_auc_average_precision": 0.887946729981156
+  },
+  "tfidf": {
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "sublinear_tf": true
+  }
+}

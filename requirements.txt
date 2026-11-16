@@ -1,0 +1,20 @@
+# Core data handling and scientific computing.
+pandas
+numpy
+scipy
+
+# Machine-learning pipeline and selected estimator.
+scikit-learn>=1.9.1,<2.0
+xgboost
+
+# Analysis, notebook, and explanation tools used by the project.
+matplotlib
+seaborn
+shap
+joblib
+jupyter
+ipython
+
+# Local web application and its existing input tests.
+streamlit
+pytest

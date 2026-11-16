@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter and test/tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated temporary output
+output/
+reports/temp/
+
+# Large datasets
+data/raw/*.csv
+data/processed/processed_job_postings.csv
+
+# Current saved models are small enough to include.
+# Use Git LFS or exclude and document a regeneration path if a future model is large.

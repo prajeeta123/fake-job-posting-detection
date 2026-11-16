@@ -1,0 +1,45 @@
+{
+  "source_pipeline": "models\\best_hybrid_model.joblib",
+  "calibrated_pipeline": "models\\fake_job_detector.joblib",
+  "calibration": "sigmoid (Platt scaling)",
+  "calibration_cv": 3,
+  "training_rows": 14116,
+  "held_out_test_rows_used": 0,
+  "positive_label": "t",
+  "label_mapping": {
+    "f": 0,
+    "t": 1
+  },
+  "categorical_features": [
+    "location",
+    "department",
+    "salary_range",
+    "employment_type",
+    "required_experience",
+    "required_education",
+    "industry",
+    "function",
+    "telecommuting",
+    "has_company_logo",
+    "has_questions"
+  ],
+  "numeric_features": [
+    "raw__description_length",
+    "raw__requirements_length",
+    "raw__word_count",
+    "raw__character_count",
+    "raw__url_count",
+    "raw__email_count",
+    "raw__phone_count",
+    "raw__exclamation_count",
+    "raw__missing_company_profile",
+    "raw__contains_urgent_language",
+    "raw__contains_fee_request",
+    "raw__contains_easy_money",
+    "raw__contains_no_experience",
+    "raw__contains_work_from_home",
+    "raw__contains_cryptocurrency_payment",
+    "raw__contains_whatsapp_or_telegram"
+  ],
+  "text_feature": "combined_text"
+}

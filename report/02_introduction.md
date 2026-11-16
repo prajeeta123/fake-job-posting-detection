@@ -1,0 +1,9 @@
+# 1. Introduction
+
+Digital recruitment platforms make job opportunities widely accessible, but the same reach can be exploited to distribute misleading vacancies and collect money or sensitive applicant information. A fraudulent advertisement may resemble a legitimate posting in its title and description, while other postings can omit company information or use high-pressure language. A detector can help prioritize review, but it cannot verify an employer or replace a job seeker's judgment.
+
+This project studies binary classification of job advertisements as legitimate (`f`) or fraudulent (`t`). It builds on published work about recruitment fraud characterization and public datasets [1], machine-learning and NLP detection [4], deep-learning NLP [2], ensemble methods [3], and comparative fraud-detection methods in an IoT setting [5]. Rather than relying on a text-only representation, this implementation constructs a hybrid feature set with posting text, structured metadata, and handcrafted indicators.
+
+The work covers a full, reproducible project workflow: inspect and clean the data; reserve a stratified test partition; compare candidate models on training-only validation; fit a complete preprocessing-and-classification pipeline; calibrate it using training data; select a classification threshold on a separate validation split; evaluate the saved pipeline; explain selected test predictions; and deploy local inference through Streamlit. The project uses test results for final evaluation and explanation, not for model or threshold selection.
+
+The contribution is an integrated, dataset-specific implementation and comparison, not a claim that one model universally outperforms the cited literature. Cross-paper results are not directly comparable unless datasets, splits, labels, and evaluation protocols are harmonized.

@@ -1,0 +1,62 @@
+{
+  "selected_model": "Linear SVM (balanced)",
+  "selection_metric": "training-validation PR-AUC (average precision), fraud F1 as tie-breaker",
+  "positive_label": "t",
+  "label_mapping": {
+    "f": 0,
+    "t": 1
+  },
+  "categorical_features": [
+    "location",
+    "department",
+    "salary_range",
+    "employment_type",
+    "required_experience",
+    "required_education",
+    "industry",
+    "function",
+    "telecommuting",
+    "has_company_logo",
+    "has_questions"
+  ],
+  "numeric_features": [
+    "raw__description_length",
+    "raw__requirements_length",
+    "raw__word_count",
+    "raw__character_count",
+    "raw__url_count",
+    "raw__email_count",
+    "raw__phone_count",
+    "raw__exclamation_count",
+    "raw__missing_company_profile",
+    "raw__contains_urgent_language",
+    "raw__contains_fee_request",
+    "raw__contains_easy_money",
+    "raw__contains_no_experience",
+    "raw__contains_work_from_home",
+    "raw__contains_cryptocurrency_payment",
+    "raw__contains_whatsapp_or_telegram"
+  ],
+  "tfidf": {
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "sublinear_tf": true
+  },
+  "xgboost_scale_pos_weight": 19.57725947521866,
+  "selected_model_test_metrics": {
+    "model_name": "Linear SVM (balanced)",
+    "features_used": "TF-IDF text + one-hot metadata + scaled scam indicators",
+    "accuracy": 0.9818645508642675,
+    "fraud_precision": 0.8068181818181818,
+    "fraud_recall": 0.8255813953488372,
+    "fraud_f1_score": 0.8160919540229885,
+    "roc_auc": 0.9855924101668849,
+    "pr_auc": 0.8957527478592155,
+    "validation_pr_auc": 0.9272756651576687,
+    "validation_f1_fraud": 0.8487084870848709
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "selected_threshold": 0.4,
+  "selection_metric": "fraud_f1_score",
+  "validation_fraud_f1_score": 0.844106463878327,
+  "high_recall_threshold": 0.15,
+  "high_recall": 0.927007299270073,
+  "high_recall_target": 0.9,
+  "high_recall_target_met": true,
+  "validation_rows": 2824,
+  "final_test_rows_used": 0,
+  "probability_model": "sigmoid-calibrated selected hybrid pipeline"
+}

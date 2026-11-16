@@ -1,0 +1,46 @@
+Logistic Regression (balanced)
+==============================
+                precision    recall  f1-score   support
+
+Legitimate (f)     0.9951    0.9711    0.9830      3357
+Fraudulent (t)     0.6166    0.9070    0.7341       172
+
+      accuracy                         0.9680      3529
+     macro avg     0.8059    0.9390    0.8585      3529
+  weighted avg     0.9767    0.9680    0.9708      3529
+
+
+Linear SVM (balanced)
+=====================
+                precision    recall  f1-score   support
+
+Legitimate (f)     0.9911    0.9899    0.9905      3357
+Fraudulent (t)     0.8068    0.8256    0.8161       172
+
+      accuracy                         0.9819      3529
+     macro avg     0.8989    0.9077    0.9033      3529
+  weighted avg     0.9821    0.9819    0.9820      3529
+
+
+Random Forest (balanced)
+========================
+                precision    recall  f1-score   support
+
+Legitimate (f)     0.9864    0.9961    0.9913      3357
+Fraudulent (t)     0.9065    0.7326    0.8103       172
+
+      accuracy                         0.9833      3529
+     macro avg     0.9465    0.8643    0.9008      3529
+  weighted avg     0.9825    0.9833    0.9824      3529
+
+
+XGBoost (weighted)
+==================
+                precision    recall  f1-score   support
+
+Legitimate (f)     0.9923    0.9923    0.9923      3357
+Fraudulent (t)     0.8488    0.8488    0.8488       172
+
+      accuracy                         0.9853      3529
+     macro avg     0.9205    0.9205    0.9205      3529
+  weighted avg     0.9853    0.9853    0.9853      3529
